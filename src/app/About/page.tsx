@@ -11,7 +11,7 @@ export default function About(){
                 <div>
                 <p>🌍 I'm based in India</p>
                 <p>🧠 I'm learning React, Next.js and Tensorflow</p>
-                <p>💼 Any freelance work? do reach, email :)</p>
+                <p>💼 Any freelance work? do reach, email :D</p>
                 <p>💬 Ask me about anything, i am happy to help</p>
                 <p>🌸 Plan: Learning</p>
                 </div>
@@ -36,15 +36,15 @@ export default function About(){
                     <br/>
                     </div>
                     <div className="flex h-12 items-center space-x-4 text-sm flex-wrap">
-                        <img className="ml-[13px] mb-[13px]" width="48" height="48" src="https://img.icons8.com/fluency/48/c-programming.png" alt="c-programming"/>
-                        <img className="mb-[13px]" width="48" height="48" src="https://img.icons8.com/color/48/c-plus-plus-logo.png" alt="c-plus-plus-logo"/>
-                        <img className="mb-[13px]" width="48" height="48" src="https://img.icons8.com/color/48/python--v1.png" alt="python--v1"/>
-                        <img className="mb-[13px]" width="48" height="48" src="https://img.icons8.com/color/48/java-coffee-cup-logo.png" alt="java-coffee-cup-logo"/>
-                        <img className="mb-[13px]" width="48" height="48" src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5--v1"/>
-                        <img className="mb-[13px]" width="48" height="48" src="https://img.icons8.com/ios/50/css-filetype.png" alt="css-filetype"/>
-                        <img className="mb-[13px]" width="48" height="48" src="https://img.icons8.com/fluency/48/tailwind_css.png" alt="tailwind_css"/>
-                        <img className="mb-[13px]" width="48" height="48" src="https://img.icons8.com/pulsar-color/48/javascript.png" alt="javascript"/>
-                        <img className="mb-[13px]" width="36" height="36" src="https://img.icons8.com/officel/80/react.png" alt="react"/>
+                        <Image className="ml-[13px] mb-[13px]" width="48" height="48" src="https://img.icons8.com/fluency/48/c-programming.png" alt="c-programming"/>
+                        <Image className="mb-[13px]" width="48" height="48" src="https://img.icons8.com/color/48/c-plus-plus-logo.png" alt="c-plus-plus-logo"/>
+                        <Image className="mb-[13px]" width="48" height="48" src="https://img.icons8.com/color/48/python--v1.png" alt="python--v1"/>
+                        <Image className="mb-[13px]" width="48" height="48" src="https://img.icons8.com/color/48/java-coffee-cup-logo.png" alt="java-coffee-cup-logo"/>
+                        <Image className="mb-[13px]" width="48" height="48" src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5--v1"/>
+                        <Image className="mb-[13px]" width="48" height="48" src="https://img.icons8.com/ios/50/css-filetype.png" alt="css-filetype"/>
+                        <Image className="mb-[13px]" width="48" height="48" src="https://img.icons8.com/fluency/48/tailwind_css.png" alt="tailwind_css"/>
+                        <Image className="mb-[13px]" width="48" height="48" src="https://img.icons8.com/pulsar-color/48/javascript.png" alt="javascript"/>
+                        <Image className="mb-[13px]" width="36" height="36" src="https://img.icons8.com/officel/80/react.png" alt="react"/>
                         <Image
                             className="mb-[13px]"
                             src="/nextjslogo.png"
@@ -52,10 +52,10 @@ export default function About(){
                             height={48}
                             alt="next js"
                         />
-                        <img className="mb-[13px]" width="48" height="48" src="https://img.icons8.com/ios/50/express-js.png" alt="express-js"/>
-                        <img className="mb-[13px]" width="48" height="48" src="https://img.icons8.com/color/48/firebase.png" alt="firebase"/>
-                        <img className="mb-[13px]" width="48" height="48" src="https://img.icons8.com/color/48/tensorflow.png" alt="tensorflow"/>
-                        <img className="mb-[13px]" width="48" height="48" src="https://img.icons8.com/color/48/git.png" alt="git"/>
+                        <Image className="mb-[13px]" width="48" height="48" src="https://img.icons8.com/ios/50/express-js.png" alt="express-js"/>
+                        <Image className="mb-[13px]" width="48" height="48" src="https://img.icons8.com/color/48/firebase.png" alt="firebase"/>
+                        <Image className="mb-[13px]" width="48" height="48" src="https://img.icons8.com/color/48/tensorflow.png" alt="tensorflow"/>
+                        <Image className="mb-[13px]" width="48" height="48" src="https://img.icons8.com/color/48/git.png" alt="git"/>
                     </div>
                 </div>
         </div>
