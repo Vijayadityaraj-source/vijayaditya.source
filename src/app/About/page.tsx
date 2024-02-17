@@ -35,7 +35,7 @@ export default function About(){
                     </p>
                     <br/>
                     </div>
-                    <div className="flex h-12 items-center space-x-4 text-sm flex-wrap">
+                    <div className="flex h-12 items-center space-x-4 text-sm flex-wrap pb-5">
                         <Image className="ml-[13px] mb-[13px]" width="48" height="48" src="https://img.icons8.com/fluency/48/c-programming.png" alt="c-programming"/>
                         <Image className="mb-[13px]" width="48" height="48" src="https://img.icons8.com/color/48/c-plus-plus-logo.png" alt="c-plus-plus-logo"/>
                         <Image className="mb-[13px]" width="48" height="48" src="https://img.icons8.com/color/48/python--v1.png" alt="python--v1"/>
