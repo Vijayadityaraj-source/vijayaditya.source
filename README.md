@@ -6,4 +6,4 @@ Step 2: ``` npm install ```
 
 Step 3: ``` npm run dev ```
 
-This project is live at ✨ https://vijayaditya-source.netlify.app ✨
+This project is live at ✨ https://vijayaditya-source.vercel.app/ ✨
