@@ -6,11 +6,11 @@ export default function About(){
         <div className="about flex justify-center items-center text-[17px] ">
             <div className="about flex flex-col items-center justify-center w-1/2">
                 <h2 className="abouth2 pt-20 text-[20px]">HI 👋 MY NAME IS VIJAYADITYA</h2><br/>
-                <p>I'm a passionate, creative and perceptive engineer with a hands-on approach to problem-solving and an unending thirst for knowledge. Anything and everything that can be classified as technology fascinates me. <br/><br/> Currently in my final year of undergrad at NITW pursuing Computer Science Engineering. I am Passionate about Web Development and Machine Learning.</p>
+                <p>I&#39;m a passionate, creative and perceptive engineer with a hands-on approach to problem-solving and an unending thirst for knowledge. Anything and everything that can be classified as technology fascinates me. <br/><br/> Currently in my final year of undergrad at NITW pursuing Computer Science Engineering. I am Passionate about Web Development and Machine Learning.</p>
                 <br/>
                 <div>
-                <p>🌍 I'm based in India</p>
-                <p>🧠 I'm learning React, Next.js and Tensorflow</p>
+                <p>🌍 I&#39;m based in India</p>
+                <p>🧠 I&#39;m learning React, Next.js and Tensorflow</p>
                 <p>💼 Any freelance work? do reach, email :D</p>
                 <p>💬 Ask me about anything, i am happy to help</p>
                 <p>🌸 Plan: Learning</p>
