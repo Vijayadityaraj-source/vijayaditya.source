@@ -8,8 +8,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function Contact(){
-    return(
-        <>
+    return(<>
         <div className="h-[70vh] flex justify-center items-center text-[17px] flex-wrap">
             <div className="about flex flex-col items-center justify-center w-1/2">
                 <h1 className="pt-20">📨 Mail @<Link href="mailto:vijayaditya.eng@gmail.com" className="underline text-[#3081f7]">vijayaditya.eng@gmail.com</Link></h1>
@@ -23,18 +22,24 @@ export default function Contact(){
                     <Button className="hover:bg-grey bg-[#3081f7] text-white text-[17px]" type="submit">Submit</Button>
                 </form>
                 {/* <Separator className="my-4"/> */}
-                <footer className="fixed w-100 bottom-5">
-                    <div className="flex items-center justify-center">
-                        <Link href="https://www.linkedin.com/in/vijayaditya-raj-rapaka-5b2659237/"><LinkedInIcon fontSize="large" className="mt-1"/></Link>
-                        <Link href="https://github.com/Vijayadityaraj-source/"><GitHubIcon fontSize="large" className="mt-1 ml-5"/></Link>
-                        {/* <Link href="https://twitter.com/V_A_R_Rap"><img className="ml-3" width="36" height="36" src="https://img.icons8.com/sf-regular-filled/48/medium-logo.png" alt="medium-logo"/></Link> */}
-                        <Link href="https://twitter.com/V_A_R_Rap"><XIcon fontSize="large" className="ml-5 mt-1"/></Link>
-                        <Link href="https://www.instagram.com/_vijayadityar_/"><InstagramIcon fontSize="large" className="ml-5 mt-1"/></Link>
-                    </div>
-                    <p className="text-center m-5">COPYRIGHT2024</p>
-                </footer>
             </div>
         </div>
-        </>
+        <div className="relative mt-10">
+        <div className="absolute inset-x-0">
+            <footer>
+                <div className="flex flex-col items-center justify-center">
+                    <div className="flex">
+                    <Link href="https://www.linkedin.com/in/vijayaditya-raj-rapaka-5b2659237/"><LinkedInIcon fontSize="large" className="mt-1"/></Link>
+                    <Link href="https://github.com/Vijayadityaraj-source/"><GitHubIcon fontSize="large" className="mt-1 ml-5"/></Link>
+                    {/* <Link href="https://twitter.com/V_A_R_Rap"><img className="ml-3" width="36" height="36" src="https://img.icons8.com/sf-regular-filled/48/medium-logo.png" alt="medium-logo"/></Link> */}
+                    <Link href="https://twitter.com/V_A_R_Rap"><XIcon fontSize="large" className="ml-5 mt-1"/></Link>
+                    <Link href="https://www.instagram.com/_vijayadityar_/"><InstagramIcon fontSize="large" className="ml-5 mt-1"/></Link>
+                    </div>
+                    <p className="text-center m-5">COPYRIGHT2024</p>
+                </div>
+            </footer>
+        </div>
+        </div>
+    </>
     )
 }

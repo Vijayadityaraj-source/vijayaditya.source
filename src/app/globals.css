@@ -113,7 +113,7 @@ body{
     text-align: center;
     font-size: 7vw;
     color:#E41415;
-    margin-top: 10vh;
+    /* margin-top: 10vh; */
 }
 .md-dark{
     background-color: black;
@@ -201,9 +201,6 @@ nav{
 }
 
 @media (max-width: 760px){
-    .main{
-        padding-top: 25vw;
-    }
     a.hide{
         display: none;
     }
@@ -221,7 +218,6 @@ nav{
     }
     .showcase{
         width: 97%;
-        margin: 10px;
         padding-top: 25px;
     }
     .project_card{
