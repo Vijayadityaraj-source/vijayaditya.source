@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
 import XIcon from '@mui/icons-material/X';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -23,8 +22,8 @@ export default function Contact(){
                     <Textarea name="Msg" placeholder="Type your message here." cols={50} className="bg-transparent border-[#3081f7] text-[17px] h-full" required/><br/>
                     <Button className="hover:bg-grey bg-[#3081f7] text-white text-[17px]" type="submit">Submit</Button>
                 </form>
-                <Separator className="my-4"/>
-                <footer className="sticky bottom-0">
+                {/* <Separator className="my-4"/> */}
+                <footer className="fixed w-100 bottom-5">
                     <div className="flex items-center justify-center">
                         <Link href="https://www.linkedin.com/in/vijayaditya-raj-rapaka-5b2659237/"><LinkedInIcon fontSize="large" className="mt-1"/></Link>
                         <Link href="https://github.com/Vijayadityaraj-source/"><GitHubIcon fontSize="large" className="mt-1 ml-5"/></Link>
@@ -32,6 +31,7 @@ export default function Contact(){
                         <Link href="https://twitter.com/V_A_R_Rap"><XIcon fontSize="large" className="ml-5 mt-1"/></Link>
                         <Link href="https://www.instagram.com/_vijayadityar_/"><InstagramIcon fontSize="large" className="ml-5 mt-1"/></Link>
                     </div>
+                    <p className="text-center m-5">COPYRIGHT2024</p>
                 </footer>
             </div>
         </div>
