@@ -18,7 +18,7 @@ import {
 } from "@/components/ui/dropdown-menu"
 import React from "react";
   
-export default function navbar(){
+export default function Navbar(){
     const [theme,setTheme] = useState(true);
     const [hover,setHover] = useState(false);
     const [iconClassDark,setIconClassDark] = useState("material-icons md-light");
