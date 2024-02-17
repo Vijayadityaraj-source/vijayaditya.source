@@ -24,7 +24,7 @@ export default function Navbar(){
     const [iconClassDark,setIconClassDark] = useState("material-icons md-light");
     const [iconClassLight,setIconClassLight] = useState("material-icons md-dark");
     const [navClass,setNavClass] = useState("navigation md-dark");
-    const [homeTextColor,setHomeTextColor] = useState("white");
+    const [homeTextColor,setHomeTextColor] = useState("#E41415");
     const [aboutTextColor,setAboutTextColor] = useState("white");
     const [showcaseTextColor,setShowcaseTextColor] = useState("white");
     const [contactTextColor,setContactTextColor] = useState("white");
@@ -35,7 +35,6 @@ export default function Navbar(){
 
     function changeMode():void{
         setTheme(!theme);
-        theme?localStorage.setItem('theme','dark'):localStorage.setItem('theme','light');
     }
     function handleHover():void{
         setHover(true);
