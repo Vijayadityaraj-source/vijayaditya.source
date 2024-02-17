@@ -123,7 +123,7 @@ export default function Navbar(){
     return (
         <div className="navbar">
             <nav className={navClass}>
-                <Link className="githubLink" href="https://github.com/Vijayadityaraj-source">{theme?<Image src={githubLogoDark} width={50} alt={'githubLogo'}/>:<Image src={githubLogoLight} alt={"githubLogo"} width={50}/>}</Link>
+                <Link className="githubLink" href="https://github.com/Vijayadityaraj-source">{theme?<Image priority src={githubLogoDark} width={50} alt={'githubLogo'}/>:<Image priority src={githubLogoLight} alt={"githubLogo"} width={50}/>}</Link>
                 <Link className="hide" style={{color: homeTextColor,textDecoration: 'none',padding: 0,margin: "auto 0"}} href="/"><p className="homeLink">Home</p></Link>
                 <Link className="hide" style={{color: aboutTextColor,textDecoration: 'none',padding: 0,margin: "auto 0"}} href="/About"><p className="aboutLink">About</p></Link>
                 <Link className="hide" style={{color: showcaseTextColor,textDecoration: 'none',padding: 0,margin: "auto 0"}} href="/Showcase"><p className="showcaseLink">Showcase</p></Link>
