@@ -4,8 +4,8 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import Image from 'next/image';
 import {usePathname} from 'next/navigation'; 
-import githubLogoDark from '../../public/githubDark.svg'
-import githubLogoLight from '../../public/githubLight.svg'
+import githubLogoDark from '../../../public/githubDark.svg'
+import githubLogoLight from '../../../public/githubLight.svg'
 import 'material-icons/iconfont/material-icons.css'
 import {
     DropdownMenu,
