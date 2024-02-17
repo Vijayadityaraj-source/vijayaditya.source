@@ -31,7 +31,6 @@ export default function Navbar(){
     const [menuOpened,setMenuOpened] = useState(false);
     const [menuClass,setMenuClass] = useState("material-icons md-light md-32");
     const [position, setPosition] = useState("bottom");
-    const path = usePathname();
 
     function changeMode():void{
         setTheme(!theme);
@@ -45,7 +44,8 @@ export default function Navbar(){
     function openMenu(): void {
         setMenuOpened(!menuOpened);
     }
-
+    var path = usePathname();
+    
     useEffect(() => {
         const element = document.body;
         !theme?setNavClass("navigation md-light"):setNavClass("navigation md-dark");
@@ -106,7 +106,7 @@ export default function Navbar(){
 
         element.classList.toggle("dark-mode", theme);
         element.classList.toggle("light-mode", !theme);
-    }, [theme,path]);
+    }, [theme,usePathname()]);
 
     useEffect(() => {
         if(hover){
