@@ -1,67 +1,65 @@
-{
-    "projects":[
-        {
-        "name": "E-Commerce Database",
-        "description": "A Database for storing data of a E-commerce Website,Member and manager of a team of 3",
-        "link": "https://drive.google.com/file/d/1fPYOJhz-T5UBKEKebK2d_EGiYrbV6b0t/view?usp=sharing",
-        "tech": "MySQL",
-        "deployed": "",
+[
+    {
+    "name": "E-Commerce Database",
+    "description": "A Database for storing data of a E-commerce Website,Member and manager of a team of 3",
+    "link": "https://drive.google.com/file/d/1fPYOJhz-T5UBKEKebK2d_EGiYrbV6b0t/view?usp=sharing",
+    "tech": "MySQL",
+    "deployed": "",
+    "additional_info": "",
+    "id": 1
+    },
+    {
+    "name": "Man In the Middle Attack",
+    "description": "Attacks the victim and router with continuous arp reply packets to eavesdrop on the messages exchanged",
+    "link": "https://github.com/Vijayadityaraj-source/Computer_Networks",
+    "tech": "C,ARP protocol",
+    "deployed": "",
+    "additional_info": "",
+    "id": 2
+    },
+    {
+    "name": "Libpcap",
+    "description": "Packet sniffer which can sniff packets to and from a particular ip address and port",
+    "link": "https://github.com/Vijayadityaraj-source/Computer_Networks",
+    "tech": "C,Libpcap",
+    "deployed": "",
+    "additional_info": "",
+    "id": 3
+    },
+    {
+    "name": "Summarizer",
+    "description": "React-flask website, uses huggingface Summarizer model in the backend",
+    "link": "https://github.com/Vijayadityaraj-source/Summarizer",
+    "tech": "React,Flask,HuggingFace Summarizer API",
+    "deployed": "",
+    "additional_info": "Future scope : Create separate profile for each User and maintain their recent summaries",
+    "id": 4
+    },
+    {
+    "name": "Novel Generator",
+    "description": "Uses Harry Potter Novels to train a NLP,uses LSTM layers for training.",
+    "link": "https://colab.research.google.com/drive/1FqiWVURxJyQxX37F1ye1l6uZHjmawGGA#scrollTo=9TFTmI18xi40",
+    "tech": "Python,Tensorflow",
+    "deployed": "",
+    "additional_info": "",
+    "id": 5
+    },
+    {
+        "name": "Terminal-portfolio",
+        "description": "An interactive portfolio which consists information about me and my projects.",
+        "link": "https://github.com/Vijayadityaraj-source/Terminal-Portfolio",
+        "tech": "React,Express,CSS",
+        "deployed": "https://vijayaditya-portfolio.netlify.app",
         "additional_info": "",
-        "id": 1
-        },
-        {
-        "name": "Man In the Middle Attack",
-        "description": "Attacks the victim and router with continuous arp reply packets to eavesdrop on the messages exchanged",
-        "link": "https://github.com/Vijayadityaraj-source/Computer_Networks",
-        "tech": "C,ARP protocol",
-        "deployed": "",
+        "id": 6
+    },
+    {
+        "name": "Terminal-Business-Card",
+        "description": "My personal business card which can be directly accessed from the terminal.",
+        "link": "https://github.com/Vijayadityaraj-source/Terminal-Portfolio",
+        "tech": "React,Express,CSS",
+        "deployed": "https://www.npmjs.com/package/vijayaditya?activeTab=readme",
         "additional_info": "",
-        "id": 2
-        },
-        {
-        "name": "Libpcap",
-        "description": "Packet sniffer which can sniff packets to and from a particular ip address and port",
-        "link": "https://github.com/Vijayadityaraj-source/Computer_Networks",
-        "tech": "C,Libpcap",
-        "deployed": "",
-        "additional_info": "",
-        "id": 3
-        },
-        {
-        "name": "Summarizer",
-        "description": "React-flask website, uses huggingface Summarizer model in the backend",
-        "link": "https://github.com/Vijayadityaraj-source/Summarizer",
-        "tech": "React,Flask,HuggingFace Summarizer API",
-        "deployed": "",
-        "additional_info": "Future scope : Create separate profile for each User and maintain their recent summaries",
-        "id": 4
-        },
-        {
-        "name": "Novel Generator",
-        "description": "Uses Harry Potter Novels to train a NLP,uses LSTM layers for training.",
-        "link": "https://colab.research.google.com/drive/1FqiWVURxJyQxX37F1ye1l6uZHjmawGGA#scrollTo=9TFTmI18xi40",
-        "tech": "Python,Tensorflow",
-        "deployed": "",
-        "additional_info": "",
-        "id": 5
-        },
-        {
-            "name": "Terminal-portfolio",
-            "description": "An interactive portfolio which consists information about me and my projects.",
-            "link": "https://github.com/Vijayadityaraj-source/Terminal-Portfolio",
-            "tech": "React,Express,CSS",
-            "deployed": "https://vijayaditya-portfolio.netlify.app",
-            "additional_info": "",
-            "id": 6
-        },
-        {
-            "name": "Terminal-Business-Card",
-            "description": "My personal business card which can be directly accessed from the terminal.",
-            "link": "https://github.com/Vijayadityaraj-source/Terminal-Portfolio",
-            "tech": "React,Express,CSS",
-            "deployed": "https://www.npmjs.com/package/vijayaditya?activeTab=readme",
-            "additional_info": "",
-            "id": 7
-        }
-    ]
-}
+        "id": 7
+    }
+]

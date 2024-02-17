@@ -16,6 +16,7 @@ import {
     DropdownMenuSeparator,
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
+import React from "react";
   
 export default function navbar(){
     const [theme,setTheme] = useState(true);
