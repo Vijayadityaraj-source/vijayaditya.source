@@ -7,7 +7,7 @@ export default function Showcase(){
 
     return(
         <div className="showcase w-2/4 pt-5 m-auto pb-3">
-            <p className="showcase-p m-5 text-[20px] font-black">Projects</p>
+            <p className="showcase-p m-5 text-[20px] font-black pl-1">Projects</p>
             {projects.map((project,index)=>(
                 <div key={index} className="m-6">
                     <Link href={project.link}>

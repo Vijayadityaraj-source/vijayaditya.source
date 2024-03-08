@@ -7,15 +7,6 @@ import { usePathname } from "next/navigation";
 import githubLogoDark from "../../../public/githubDark.svg";
 import githubLogoLight from "../../../public/githubLight.svg";
 import "material-icons/iconfont/material-icons.css";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuLabel,
-  DropdownMenuRadioGroup,
-  DropdownMenuRadioItem,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
 import React from "react";
 
 export default function Navbar() {
@@ -32,7 +23,6 @@ export default function Navbar() {
   const [contactTextColor, setContactTextColor] = useState("white");
   const [menuOpened, setMenuOpened] = useState(false);
   const [menuClass, setMenuClass] = useState("material-icons md-light md-32");
-  const [position, setPosition] = useState("bottom");
 
   function changeMode(): void {
     setTheme(!theme);
@@ -117,6 +107,10 @@ export default function Navbar() {
     }
   }, [hover]);
 
+  function closeMenu(){
+    setMenuOpened(false);
+  }
+
   return (
     <div className="navbar">
       <nav className={navClass}>
@@ -200,7 +194,12 @@ export default function Navbar() {
             <span className={iconClassLight}>&#xe518;</span>
           )}
         </button>
-        <DropdownMenu>
+        <button onClick={openMenu} className="toggle-menu">
+          {menuOpened ?<span className={menuClass}>&#xe5cd;</span> :<span className={menuClass}>&#xe5d2;</span>}
+        </button>
+
+        
+        {/* <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <button onClick={openMenu} className="toggle-menu">
               <span className={menuClass}>&#xe5d2;</span>
@@ -261,8 +260,51 @@ export default function Navbar() {
               </Link>
             </DropdownMenuRadioGroup>
           </DropdownMenuContent>
-        </DropdownMenu>
+        </DropdownMenu> */}
       </nav>
+      {menuOpened && <div className={navClass} style={{display: "flex", flexDirection: "column",fontSize: "16px", zIndex: "1000",position: "relative", borderBottomLeftRadius: "0.5rem", borderBottomRightRadius: "0.5rem" }}>
+          <Link
+            style={{
+              color: homeTextColor,
+              textDecoration: "none",
+              padding: "4%",
+              margin: "auto",
+            }}
+            href="/"
+            onClick={closeMenu}
+          >Home</Link>
+          <Link
+            style={{
+              color: aboutTextColor,
+              textDecoration: "none",
+              padding: "4%",
+              margin: "auto",
+            }}
+            href="/About"
+            onClick={closeMenu}
+          >About</Link>
+          <Link
+            style={{
+              color: showcaseTextColor,
+              textDecoration: "none",
+              padding: "4%",
+              margin: "auto",
+            }}
+            href="/Showcase"
+            onClick={closeMenu}
+          >Showcase</Link>
+          <Link
+            style={{
+              color: contactTextColor,
+              textDecoration: "none",
+              padding: "4%",
+              margin: "auto",
+            }}
+            href="/Contact"
+            onClick={closeMenu}
+          >Contact</Link>
+          <br/>
+        </div>}
     </div>
   );
 }
