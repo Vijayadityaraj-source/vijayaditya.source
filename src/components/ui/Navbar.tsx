@@ -110,7 +110,7 @@ export default function Navbar() {
   function closeMenu(){
     setMenuOpened(false);
   }
-
+  
   return (
     <div className="navbar">
       <nav className={navClass}>

@@ -40,7 +40,7 @@ export default function About() {
                 </ul>
                 <Separator className="my-4" /> */}
         <div className="space-y-1 break-words">
-          <h2 className="pt-5 text-[18px] font-medium leading-none ">
+          <h2 className="pt-5 pb-5 text-[18px] font-medium leading-none underline underline-offset-8 decoration-green-500 -rotate-2">
             Favorite Tech
           </h2>
           <p className="text-muted-foreground text-[18px]">

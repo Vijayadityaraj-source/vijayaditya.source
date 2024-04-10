@@ -112,7 +112,7 @@ body {
     font-family: "Turret Road";
     text-align: center;
     font-size: 7vw;
-    color: #e41415;
+    /* color: #e41415; */
     /* margin-top: 10vh; */
 }
 .md-dark {
@@ -209,6 +209,18 @@ nav {
 }
 
 @media (max-width: 760px) {
+    .home-heading{
+        font-size: xx-large;
+    }
+
+    .copyright{
+        font-size: small;
+    }
+
+    .resume{
+        font-size: large;
+    }
+
     a.hide {
         display: none;
     }
